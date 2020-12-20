@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<p class="mode">mode</p>
+		<select name="mode" id="mode__select">
+			<option value="pvp">pvp</option>
+			<option value="easy">easy</option>
+			<option value="medium">medium</option>
+		</select>
+			<p class="panel"></p>
+		<div class="board">
+			<div class="board__item"data-pos="0"></div>
+			<div class="board__item"data-pos="1"></div>
+			<div class="board__item"data-pos="2"></div>
+			<div class="board__item"data-pos="3"></div>
+			<div class="board__item"data-pos="4"></div>
+			<div class="board__item"data-pos="5"></div>
+			<div class="board__item"data-pos="6"></div>
+			<div class="board__item"data-pos="7"></div>
+			<div class="board__item"data-pos="8"></div>
+		</div>
+		<button class="reset__button">Reset game</button>
+	</div>
+	<script src="Game.js" type="module"></script>
+	</body>
+</html>
